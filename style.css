@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;   
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Start of Navbar styles */
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 69px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav {
+    margin-right: 10px;
+}
+
+.nav li {
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+.nav li a {
+    color: seashell;
+}
+
+/* End of Navbar styles */
+
+/* Start of Mission styles */
+
+main {
+    position: relative;
+    top: 69px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mission_statement {
+    width: 1200px;
+    background-color: black;
+    padding: 20px;
+}
+
+.mission_statement h2 {
+    margin-bottom: 20px;
+}
+
+/* End of Mission styles */
+
+/* Start of Tea of the Month styles */
+
+#tea-of-the-month {
+    position: relative;
+    top: 70px;
+}
+
+#tea-of-the-month h2, #tea-of-the-month h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#totm-cards {
+    margin: 0px auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-card {
+    margin-right: 32px;
+    margin-bottom: 10px;
+}
+
+.tea-card img {
+    height: 200px;
+    width: 300px;
+}
+
+/* End of Tea of the Month styles */
+
+/* Start of Locations styles */
+
+#locations {
+    margin: 0 auto;
+    margin-top: 69px;
+    position: relative;
+    top: 69px;
+    background-image: url(img/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+}
+
+.locations {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.addresses {
+    width: 300px;
+    background-color: black;
+    margin-right: 40px;
+    padding: 15px 0;
+    line-height: 3;
+    opacity: 1;
+}
+
+/* End of Locations styles */
+
+/* Start of Contact styles */
+
+#contact {
+    margin: 0 auto;
+    position: relative;
+    top: 69px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* End of Contact styles */
+
+/* Start of Footer styles */
+
+#copyright {
+    position: relative;
+    top: 69px;
+    text-align: left;
+}
+
+#copyright h5 {
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/* End of Footer styles */
